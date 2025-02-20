@@ -14,6 +14,6 @@ int main()
     } else if (Weight<=10) {
     cout << "The Object Is Too Small" << endl;
     }
-    cout << "The Objects Weight Is " << Weight;
+    cout << "The Objects Weight Is " << Weight << " Neutons";
     return 0;
 }
