@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    double Mass;
+    cout << "Enter Objects Mass" << endl;
+    cin >> Mass;
+   double Weight = Mass * 9.8;
+    if (Weight>=1000) {
+        cout << "The Object Is Too Heavy" << endl;
+
+    } else if (Weight<=10) {
+    cout << "The Object Is Too Small" << endl;
+    }
+    cout << "The Objects Weight Is " << Weight;
+    return 0;
+}
